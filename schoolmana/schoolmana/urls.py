@@ -20,4 +20,6 @@ from base import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
+    path('login/', views.login),
+    path('dashboard/', views.studentdashb),
 ]
